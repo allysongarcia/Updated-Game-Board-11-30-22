@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -278,10 +278,10 @@ RectTransform:
   m_Father: {fileID: 19624292}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -18.3797, y: -43.438877}
-  m_SizeDelta: {x: 354.4294, y: 189.3522}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -21.8287, y: -43.438877}
+  m_SizeDelta: {x: 640.5996, y: 189.3522}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &144013607
 MonoBehaviour:
@@ -303,12 +303,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '1) ON YOUR TURN, DRAW ONE CARD FROM THE DECK
+  m_text: '1) ON YOUR TURN, ROLL TWO DICE TO DETERMINE HOW MANY SPACES YOU WILL MOVE
 
-    2) GINGERBREAD CHARACTER
-    WILL MOVE AS DIRECTED
+    2)
+    USE WASD TO MOVE YOUR GINGERBREAD CHARACTER THE CORRECT NUMBER OF SPACES
 
-    3) FIRST ONE TO REACH THE END WINS'
+    3)
+    FIRST ONE TO REACH THE END WINS'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
